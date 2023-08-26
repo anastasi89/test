@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(212, 218, 216);
+}
+
+.validator_body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.validator_content {
+  border: 3px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(163, 161, 159);
+}
+
+.validator_tittle {
+  text-align: center;
+  font-size: 25px;
+}
+
+.widget_list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.widget_item {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.widget_item:nth-child(1) {
+  margin-left: -40px;
+}
+
+.card {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.cardMain {
+  border: 5px solid green;
+  border-radius: 5px;
+}
+
+.cardNoMain {
+  opacity: 0.3;
+}
+
+.amex {
+  background-image: url('../img/american-express.svg');
+}
+
+.diners {
+  background-image: url('../img/diners-club.svg');
+}
+
+.discover {
+  background-image: url('../img/discover.svg');
+}
+
+.jcb {
+  background-image: url('../img/jcb.svg');
+}
+
+.mir {
+  background-image: url('../img/mir.svg');
+}
+
+.visa {
+  background-image: url('../img/visa.svg');
+}
+
+.mastercard {
+  background-image: url('../img/mastercard.svg');
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/*----------widget_form_-----*/
+.widget_input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 10px;
+  flex: 1;
+  font-size: 20px;
+}
+
+.button {
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: inherit;
+  background-color: rgb(43, 221, 52);
+  color: rgb(10, 9, 9);
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: rgb(90, 57, 182);
+}
+
+.result_text {
+  text-align: center;
+  font-size: 30px;
+}
+
+/*----------message_result-----*/
+.result {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.valid {
+  background-color: chartreuse;
+  color: rgb(2, 26, 2);
+}
+
+.invalid {
+  background-color: darksalmon;
+  color: darkred;
+}
