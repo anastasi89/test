@@ -5,7 +5,7 @@ HELP.md
 doc
 dist
 
-# Logs
+
 logs
 *.log
 npm-debug.log*
